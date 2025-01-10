@@ -177,7 +177,6 @@ const RSVP: React.FC = () => {
 						<button
 							className="rounded-lg w-fit bg-primary text-white px-5 py-2 mt-2"
 							type="submit"
-							data-aos-duration="1500" data-aos-delay="500" data-aos="fade-up"
 						>
 							Kirim
 						</button>

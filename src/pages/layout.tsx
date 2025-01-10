@@ -18,7 +18,7 @@ const Layout: React.FC = () => {
 	AOS.init()
 
 	return (
-		<div className="bg-secondary py-5 max-sm:mb-4">
+		<div className="bg-secondary py-5">
 
 			<Song />
 			
