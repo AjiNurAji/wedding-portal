@@ -1,13 +1,36 @@
 <!doctype html>
 <html lang="en" translate="no">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Putra & Putri</title>
-  </head>
-  <body class="font-serif">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Putra & Putri</title>
+	</head>
+	<body class="font-serif">
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+		<script>
+			var isYT = false;
+			if (document.body.contains(document.getElementById("song"))) {
+				document.getElementById("song").play();
+				isYT = false;
+			} else {
+				isYT = true;
+			}
+			function playAudio() {
+				var isYT = false;
+				if (document.body.contains(document.getElementById("song"))) {
+					document.getElementById("song").play();
+					isYT = false;
+				} else {
+					isYT = true;
+				}
+			}
+		</script>
+		<script>
+			document.addEventListener("click", () => {
+				playAudio();
+			});
+		</script>
+	</body>
 </html>
