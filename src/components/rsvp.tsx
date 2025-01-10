@@ -83,7 +83,7 @@ const RSVP: React.FC = () => {
 	};
 
 	return (
-		<div className="px-4 overflow-hidden my-4">
+		<div className="px-4 pb-5 overflow-hidden mt-4">
 			<div className="bg-white border-2 border-primary shadow-lg px-4 rounded-xl py-3">
 				<h1 className="text-xl md:text-2xl font-bold mb-4 bg-primary text-white w-full text-center py-2 rounded-xl shadow-lg" data-aos-duration="1500" data-aos-delay="500" data-aos="zoom-in-down">
 					Doa & Ucapan
@@ -173,10 +173,11 @@ const RSVP: React.FC = () => {
 							className="bg-primary resize-none text-sm md:text-base text-black outline-none shadow-none rounded-xl w-full font-medium bg-opacity-10 focus:bg-opacity-20 border-2 border-primary px-3 py-2"
 						></textarea>
 					</div>
-					<div className="flex justify-end items-center" data-aos="fade-left">
+					<div className="flex justify-end items-center">
 						<button
 							className="rounded-lg w-fit bg-primary text-white px-5 py-2 mt-2"
 							type="submit"
+							data-aos-duration="1500" data-aos-delay="500" data-aos="fade-left"
 						>
 							Kirim
 						</button>
